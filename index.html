@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img\logo.ico">
     <title>BabuinPartyMinecraft</title>
 </head>
-<body onload="get()">
+<body>
     <main class="main_page">
         <p id="savedtext"></p>
         <p id="openedtext"></p>
@@ -14,9 +15,11 @@
         <form>
             <input type="text" class="input_log" id="data_get">
             <br>
-            <button type="button" onclick="save()" class="button_log">Ввести</button>
+            <button type="button" onclick="show()" class="button_log">Ввести</button>
         </form>
+        <div id="header"></div>
         <a href="login.html">Обратно</a>
+        <a href="auth.html">auth</a>
     </main>
     <noscript>Влкючите JavaScript, чтобы воспользоваться всеми функциями сайта.</noscript>
     <script src="js/main.js"></script>

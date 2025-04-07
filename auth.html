@@ -9,23 +9,14 @@
 </head>
 <body onload="get()">
     <main class="main_page">
+        <h1>Зарегестрируйтесь</h1>
         <h1>Введите имя и пароль</h1>
         <form>
-            <input type="text" class="input_log" id="username">
+            <input type="text" class="input_log" id="au_username">
             <br>
-            <input type="text" class="input_log" id="password">
+            <input type="text" class="input_log" id="au_password">
             <br>
-            <div id="page-wrapper">
-
-                <h1>Image File Reader</h1>
-                <div>
-                    Select an image file: 
-                    <input type="file" id="fileInput">
-                </div>
-                <div id="fileDisplayArea"></div>
-            
-            </div>
-            <button type="button" onclick="getinfo()" class="button_log">Ввести</button>
+            <button type="button" onclick="au_getinfo()" class="button_log">Ввести</button>
         </form>
         <a href="index.html">main</a>
     </main>
