@@ -22,15 +22,23 @@ a {
 }
 img {
   max-width: 100%;
+
 }
 div {
     color:white;
     margin-left: 230px;
 }
+p {
+    color:white;
+    margin-left: 280px;
+}
 #fileDisplayArea {
   margin-top: 2em;
   width: 100%;
   overflow-x: auto;
+}
+.index_img {
+    margin-left: 140px;
 }
 
 .main_page {
@@ -38,7 +46,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 250px;
+    margin-top: 250px;
     flex-direction: column;
 }
 .input_log {
@@ -54,6 +62,9 @@ div {
     height: 40px;
     margin-top: 30px;
     margin-left: 230px;
+}
+.p_login {
+    margin-right: 130px;
 }
 .input_login {
     font-family: "Itim", cursive;
@@ -87,5 +98,16 @@ input::placeholder {
     color: white;
 }
 .a_index {
-    margin-left: 150px;
+    margin-left: 120px;
+}
+
+.joke_html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 300px;
+}
+.joke_img {
+    margin-left: 100px;
 }

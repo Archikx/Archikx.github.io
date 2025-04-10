@@ -4,11 +4,8 @@ var objpeople = [
     { username: "Danya", password: "910" },
 ];
 
-var codes = [
-    "data1",
-    "data2",
-    "data3"
-];
+var codes = "data1"
+
 
 
 
@@ -46,26 +43,19 @@ function au_getinfo() {
 
     objpeople.push(newuser)
     console.log(objpeople)
+    window.location.href = 'index.html';
 }
 
 
 function show() {
     var data_get = document.getElementById("data_get").value
-    if (data_get == codes[0]) {
-        var img = document.createElement("img");
-        img.src = "img/message_minecraft.jpg";
-        var src = document.getElementById("header");
-        src.appendChild(img);
-    }else if (data_get == codes[1]) {
-        var img = document.createElement("img");
-        img.src = "img/message_minecraft.jpg";
-        var src = document.getElementById("header");
-        src.appendChild(img);
-    }else if (data_get == codes[2]) {
-        var img = document.createElement("img");
-        img.src = "img/message_minecraft.jpg";
-        var src = document.getElementById("header");
-        src.appendChild(img);
+    if (data_get == codes) {
+        var a = document.createElement('a');
+        var linkText = document.createTextNode("ПОЗДРАВЛЯЮ ПЕРЕХОДИ ПО ССЫЛКЕ!!!");
+        a.appendChild(linkText);
+        a.title = "my title text";
+        a.href = "joke.html";
+        document.body.appendChild(a);
     }else {
         alert("Wrong code!")
     }
