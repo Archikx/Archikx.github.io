@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img\logo.ico">
+    <title>BabuinPartyMinecraft</title>
+</head>
+<body onload="get()">
+    <main class="main_page">
+        <h1>Введите имя и пароль</h1>
+        <form>
+            <input type="text" placeholder="Имя" class="input_login" id="username">
+            <br>
+            <input type="text" placeholder="Характер" class="input_login" id="password">
+            <br>
+            <button type="button" onclick="getinfo()" class="button_login">Ввести</button>
+            <div>
+                Впервые на сайте?
+                <br>
+                <a href="auth.html">Зарегестрируйтесь</a>
+            </div>
+        </form>
+        <a href="index.html">main</a>
+    </main>
+    <noscript>Влкючите JavaScript, чтобы воспользоваться всеми функциями сайта.</noscript>
+    <script src="js/main.js"></script>
+</body>
+</html>
