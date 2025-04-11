@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/Riddle_log.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+h1 {
+    color: aliceblue;
+    margin-left: 150px;
+}
+a {
+    color: aliceblue;
+}
+img {
+  max-width: 100%;
+
+}
+div {
+    color:white;
+    margin-left: 230px;
+}
+p {
+    color:white;
+    margin-left: 280px;
+}
+#fileDisplayArea {
+  margin-top: 2em;
+  width: 100%;
+  overflow-x: auto;
+}
+.index_img {
+    margin-left: 140px;
+}
+
+.main_page {
+    font-family: "Itim", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    flex-direction: column;
+}
+.input_log {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: gray;
+    margin-right: 80px;
+}
+.button_log {
+    font-family: "Itim", cursive;
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+.p_login {
+    margin-right: 130px;
+}
+.input_login {
+    font-family: "Itim", cursive;
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.input_index {
+    font-family: "Itim", cursive;
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.button_index {
+    font-family: "Itim", cursive;
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.button_login {
+    font-family: "Itim", cursive;
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+input::placeholder {
+    color: white;
+}
+.a_index {
+    margin-left: 120px;
+}
+
+.joke_html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 300px;
+}
+.joke_img {
+    margin-left: 100px;
+}
